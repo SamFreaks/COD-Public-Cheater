@@ -152,5 +152,8 @@
   <ItemGroup>
     <None Include="Resources\call_of_duty_black_ops_iii_by_em80em-d8tdts9.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-zuhause-26.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
