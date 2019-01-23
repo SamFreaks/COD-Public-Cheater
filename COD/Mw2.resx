@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="COD-MW-new-3-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\COD-MW-new-3-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CoD-Modern-Warfare-3-1-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CoD-Modern-Warfare-3-1-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="call_of_duty_black_ops_2_icons___ico__by_backjumpone-d5pp83f" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\call_of_duty_black_ops_2_icons___ico__by_backjumpone-d5pp83f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Call-Of-Duty-Black-Ops-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Call-Of-Duty-Black-Ops-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Call-of-Duty-Modern-Warfare-2-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Call-of-Duty-Modern-Warfare-2-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="call_of_duty_black_ops_iii_by_em80em-d8tdts9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\call_of_duty_black_ops_iii_by_em80em-d8tdts9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
