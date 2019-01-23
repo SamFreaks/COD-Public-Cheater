@@ -14,6 +14,11 @@ namespace COD_Public_Cheater
 
         private void Start_Load(object sender, EventArgs e)
         {
+            StartLoad();
+        }
+
+        private void StartLoad()
+        {
             FlashLinkLblTimer.Enabled = true;
             FlashLinkLblTimer.Start();
         }

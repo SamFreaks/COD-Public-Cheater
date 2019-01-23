@@ -36,20 +36,20 @@
             // 
             // WelcomeLbl
             // 
-            this.WelcomeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WelcomeLbl.Location = new System.Drawing.Point(12, 9);
+            this.WelcomeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeLbl.Location = new System.Drawing.Point(12, 418);
             this.WelcomeLbl.Name = "WelcomeLbl";
-            this.WelcomeLbl.Size = new System.Drawing.Size(776, 114);
+            this.WelcomeLbl.Size = new System.Drawing.Size(562, 23);
             this.WelcomeLbl.TabIndex = 0;
-            this.WelcomeLbl.Text = "Welcome to Project COD Public Cheater by K Town Mods,\r\n\r\nAvailable on GitHub:";
+            this.WelcomeLbl.Text = "Welcome to Project COD Public Cheater by K Town Mods, available on GitHub:";
             this.WelcomeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WelcomeLinkLbl
             // 
-            this.WelcomeLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WelcomeLinkLbl.Location = new System.Drawing.Point(12, 123);
+            this.WelcomeLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WelcomeLinkLbl.Location = new System.Drawing.Point(580, 418);
             this.WelcomeLinkLbl.Name = "WelcomeLinkLbl";
-            this.WelcomeLinkLbl.Size = new System.Drawing.Size(776, 23);
+            this.WelcomeLinkLbl.Size = new System.Drawing.Size(204, 23);
             this.WelcomeLinkLbl.TabIndex = 1;
             this.WelcomeLinkLbl.TabStop = true;
             this.WelcomeLinkLbl.Text = "Project COD Public Cheater";
