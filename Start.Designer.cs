@@ -41,6 +41,7 @@
             this.Mw1PBox = new System.Windows.Forms.PictureBox();
             this.GitHubLinkLbl = new System.Windows.Forms.LinkLabel();
             this.DisableOnTop = new System.Windows.Forms.CheckBox();
+            this.BugLinkLbl = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.Bo3PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo2PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo1PBox)).BeginInit();
@@ -175,11 +176,23 @@
             this.DisableOnTop.UseVisualStyleBackColor = true;
             this.DisableOnTop.CheckedChanged += new System.EventHandler(this.DisableOnTop_CheckedChanged);
             // 
+            // BugLinkLbl
+            // 
+            this.BugLinkLbl.AutoSize = true;
+            this.BugLinkLbl.Location = new System.Drawing.Point(690, 38);
+            this.BugLinkLbl.Name = "BugLinkLbl";
+            this.BugLinkLbl.Size = new System.Drawing.Size(98, 13);
+            this.BugLinkLbl.TabIndex = 11;
+            this.BugLinkLbl.TabStop = true;
+            this.BugLinkLbl.Text = "Do you find a Bug?";
+            this.BugLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BugLinkLbl_LinkClicked);
+            // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BugLinkLbl);
             this.Controls.Add(this.DisableOnTop);
             this.Controls.Add(this.GitHubLinkLbl);
             this.Controls.Add(this.Bo3PBox);
@@ -220,6 +233,7 @@
         private System.Windows.Forms.PictureBox Bo3PBox;
         private System.Windows.Forms.LinkLabel GitHubLinkLbl;
         private System.Windows.Forms.CheckBox DisableOnTop;
+        private System.Windows.Forms.LinkLabel BugLinkLbl;
     }
 }
 
