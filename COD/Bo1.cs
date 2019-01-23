@@ -24,7 +24,7 @@ namespace COD_Public_Cheater.COD
 
         private void Bo1_Load(object sender, EventArgs e)
         {
-            TopMost = true;
+            //TopMost = true;
         }
 
         private void StartPBox_Click(object sender, EventArgs e)
