@@ -71,35 +71,40 @@ namespace COD_Public_Cheater
         {
             var frm = new Mw2();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Mw3PBox_Click(object sender, EventArgs e)
         {
             var frm = new Mw3();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo1PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo1();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo2PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo2();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo3PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo1();
             frm.Show();
-            Close();
+            Hide();
+        }
+
+        private void Start_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -167,6 +167,7 @@
             this.Controls.Add(this.WelcomeLbl);
             this.Name = "Start";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Start_FormClosing);
             this.Load += new System.EventHandler(this.Start_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Bo3PBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo2PBox)).EndInit();
