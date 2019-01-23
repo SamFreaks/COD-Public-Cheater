@@ -39,6 +39,8 @@
             this.Mw3PBox = new System.Windows.Forms.PictureBox();
             this.Mw2PBox = new System.Windows.Forms.PictureBox();
             this.Mw1PBox = new System.Windows.Forms.PictureBox();
+            this.GitHubLinkLbl = new System.Windows.Forms.LinkLabel();
+            this.DisableOnTop = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.Bo3PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo2PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo1PBox)).BeginInit();
@@ -76,7 +78,6 @@
             // 
             // DisableFlash
             // 
-            this.DisableFlash.AutoSize = true;
             this.DisableFlash.Location = new System.Drawing.Point(679, 398);
             this.DisableFlash.Name = "DisableFlash";
             this.DisableFlash.Size = new System.Drawing.Size(109, 17);
@@ -151,11 +152,36 @@
             this.Mw1PBox.TabStop = false;
             this.Mw1PBox.Click += new System.EventHandler(this.Mw1_Click);
             // 
+            // GitHubLinkLbl
+            // 
+            this.GitHubLinkLbl.AutoSize = true;
+            this.GitHubLinkLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GitHubLinkLbl.Location = new System.Drawing.Point(704, 9);
+            this.GitHubLinkLbl.Name = "GitHubLinkLbl";
+            this.GitHubLinkLbl.Size = new System.Drawing.Size(84, 20);
+            this.GitHubLinkLbl.TabIndex = 9;
+            this.GitHubLinkLbl.TabStop = true;
+            this.GitHubLinkLbl.Text = "My GitHub";
+            this.GitHubLinkLbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.GitHubLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GitHubLinkLbl_LinkClicked);
+            // 
+            // DisableOnTop
+            // 
+            this.DisableOnTop.Location = new System.Drawing.Point(679, 375);
+            this.DisableOnTop.Name = "DisableOnTop";
+            this.DisableOnTop.Size = new System.Drawing.Size(109, 17);
+            this.DisableOnTop.TabIndex = 10;
+            this.DisableOnTop.Text = "Disable on Top";
+            this.DisableOnTop.UseVisualStyleBackColor = true;
+            this.DisableOnTop.CheckedChanged += new System.EventHandler(this.DisableOnTop_CheckedChanged);
+            // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DisableOnTop);
+            this.Controls.Add(this.GitHubLinkLbl);
             this.Controls.Add(this.Bo3PBox);
             this.Controls.Add(this.Bo2PBox);
             this.Controls.Add(this.Bo1PBox);
@@ -192,6 +218,8 @@
         private System.Windows.Forms.PictureBox Bo1PBox;
         private System.Windows.Forms.PictureBox Bo2PBox;
         private System.Windows.Forms.PictureBox Bo3PBox;
+        private System.Windows.Forms.LinkLabel GitHubLinkLbl;
+        private System.Windows.Forms.CheckBox DisableOnTop;
     }
 }
 
