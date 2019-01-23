@@ -13,5 +13,22 @@ namespace COD_Public_Cheater.COD
         {
             Application.Exit();
         }
+
+        private void StartPBox_Click(object sender, System.EventArgs e)
+        {
+            var frm = new Start();
+            frm.Show();
+            Hide();
+        }
+
+        private void Mw1_Load(object sender, System.EventArgs e)
+        {
+            TopMost = true;
+        }
+
+        private void DisableOnTop_CheckedChanged(object sender, System.EventArgs e)
+        {
+            TopMost = !DisableOnTop.Checked ? true : false;
+        }
     }
 }

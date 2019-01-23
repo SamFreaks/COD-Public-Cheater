@@ -16,6 +16,7 @@ namespace COD_Public_Cheater
         private void Start_Load(object sender, EventArgs e)
         {
             StartLoad();
+            TopMost = true;
         }
 
         private void StartLoad()
@@ -45,6 +46,7 @@ namespace COD_Public_Cheater
             var b = labelcolor.Next(0, 255);
             var a = labelcolor.Next(0, 255);
             WelcomeLinkLbl.LinkColor = Color.FromArgb(r, g, b, a);
+            GitHubLinkLbl.LinkColor = Color.FromArgb(r, g, b, a);
         }
 
         private void DisableFlash_CheckedChanged(object sender, EventArgs e)
@@ -53,6 +55,7 @@ namespace COD_Public_Cheater
             {
                 FlashLinkLblTimer.Stop();
                 WelcomeLinkLbl.LinkColor = Color.FromArgb(0, 0, 255);
+                GitHubLinkLbl.LinkColor = Color.FromArgb(0, 0, 255);
             }
             else
             {
@@ -71,35 +74,60 @@ namespace COD_Public_Cheater
         {
             var frm = new Mw2();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Mw3PBox_Click(object sender, EventArgs e)
         {
             var frm = new Mw3();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo1PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo1();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo2PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo2();
             frm.Show();
-            Close();
+            Hide();
         }
 
         private void Bo3PBox_Click(object sender, EventArgs e)
         {
             var frm = new Bo1();
             frm.Show();
-            Close();
+            Hide();
+        }
+
+        private void Start_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void GitHubLinkLbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (GitHubLinkLbl.Text == @"My GitHub")
+            {
+                Process.Start(@"https://github.com/ktownmods");
+                GitHubLinkLbl.Location = new Point(653, 9);
+                GitHubLinkLbl.Text = @"Thanks for visiting";
+            }
+            else
+            {
+                GitHubLinkLbl.Location = new Point(704, 9);
+                GitHubLinkLbl.Text = @"My GitHub";
+            }
+        }
+
+        private void DisableOnTop_CheckedChanged(object sender, EventArgs e)
+        {
+            TopMost = !DisableOnTop.Checked ? true : false;
         }
     }
 }

@@ -119,5 +119,15 @@ namespace COD_Public_Cheater.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_zuhause_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-zuhause-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
