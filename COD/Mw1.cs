@@ -28,7 +28,7 @@ namespace COD_Public_Cheater.COD
 
         private void DisableOnTop_CheckedChanged(object sender, System.EventArgs e)
         {
-            TopMost = !DisableOnTop.Checked ? true : false;
+            TopMost = !DisableOnTop.Checked;
         }
     }
 }

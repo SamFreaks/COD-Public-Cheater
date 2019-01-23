@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace COD_Public_Cheater.COD
@@ -36,7 +29,7 @@ namespace COD_Public_Cheater.COD
 
         private void DisableOnTop_CheckedChanged(object sender, EventArgs e)
         {
-            TopMost = !DisableOnTop.Checked ? true : false;
+            TopMost = !DisableOnTop.Checked;
         }
     }
 }

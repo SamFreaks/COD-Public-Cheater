@@ -127,7 +127,19 @@ namespace COD_Public_Cheater
 
         private void DisableOnTop_CheckedChanged(object sender, EventArgs e)
         {
-            TopMost = !DisableOnTop.Checked ? true : false;
+            TopMost = !DisableOnTop.Checked;
+        }
+
+        private void BugLinkLbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // ReSharper disable once ConvertToConstant.Local
+            var dr = new DialogResult();
+            MessageBox.Show(@"", @"", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1,
+                (MessageBoxOptions) 0x40000);
+            if (dr == DialogResult.Yes)
+            {
+                Process.Start(@"https://github.com/ktownmods/COD-Public-Cheater/issues/new");
+            }
         }
     }
 }
