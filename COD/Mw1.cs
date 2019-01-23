@@ -13,5 +13,12 @@ namespace COD_Public_Cheater.COD
         {
             Application.Exit();
         }
+
+        private void StartPBox_Click(object sender, System.EventArgs e)
+        {
+            var frm = new Start();
+            frm.Show();
+            Hide();
+        }
     }
 }

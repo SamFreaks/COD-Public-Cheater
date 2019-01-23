@@ -28,20 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.StartPBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.StartPBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // BO1
+            // StartPBox
+            // 
+            this.StartPBox.Image = global::COD_Public_Cheater.Properties.Resources.icons8_zuhause_26;
+            this.StartPBox.Location = new System.Drawing.Point(12, 12);
+            this.StartPBox.Name = "StartPBox";
+            this.StartPBox.Size = new System.Drawing.Size(26, 26);
+            this.StartPBox.TabIndex = 0;
+            this.StartPBox.TabStop = false;
+            this.StartPBox.Click += new System.EventHandler(this.StartPBox_Click);
+            // 
+            // Bo1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "BO1";
+            this.Controls.Add(this.StartPBox);
+            this.Name = "Bo1";
             this.Text = "BO1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BO1_FormClosing);
+            this.Load += new System.EventHandler(this.Bo1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.StartPBox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox StartPBox;
     }
 }

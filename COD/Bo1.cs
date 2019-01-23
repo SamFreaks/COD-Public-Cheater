@@ -21,5 +21,17 @@ namespace COD_Public_Cheater.COD
         {
             Application.Exit();
         }
+
+        private void Bo1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void StartPBox_Click(object sender, EventArgs e)
+        {
+            var frm = new Start();
+            frm.Show();
+            Hide();
+        }
     }
 }
