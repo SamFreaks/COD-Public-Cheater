@@ -136,7 +136,10 @@ namespace COD_Public_Cheater
             var dr = new DialogResult();
             MessageBox.Show(@"", @"", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1,
                 (MessageBoxOptions) 0x40000);
-            if (dr == DialogResult.Yes) Process.Start(@"https://github.com/ktownmods/COD-Public-Cheater/issues/new");
+            if (dr == DialogResult.Yes)
+            {
+                Process.Start(@"https://github.com/ktownmods/COD-Public-Cheater/issues/new");
+            }
         }
     }
 }
