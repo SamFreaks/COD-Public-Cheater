@@ -11,15 +11,6 @@ You may change everything except the mentioned MessageBox and the label open sou
 You can not sell the project as your own!<br>
 You must mention that this is a modified version of my open source project!
 
-
-
-
-
-
-
-
-
-
 ## Tools included now
 ```markdown
 # All in development
