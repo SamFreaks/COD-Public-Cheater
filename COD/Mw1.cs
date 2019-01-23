@@ -20,5 +20,15 @@ namespace COD_Public_Cheater.COD
             frm.Show();
             Hide();
         }
+
+        private void Mw1_Load(object sender, System.EventArgs e)
+        {
+            TopMost = true;
+        }
+
+        private void DisableOnTop_CheckedChanged(object sender, System.EventArgs e)
+        {
+            TopMost = !DisableOnTop.Checked ? true : false;
+        }
     }
 }

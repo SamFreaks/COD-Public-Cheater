@@ -28,5 +28,15 @@ namespace COD_Public_Cheater.COD
             frm.Show();
             Hide();
         }
+
+        private void Bo2_Load(object sender, EventArgs e)
+        {
+            TopMost = true;
+        }
+
+        private void DisableOnTop_CheckedChanged(object sender, EventArgs e)
+        {
+            TopMost = !DisableOnTop.Checked ? true : false;
+        }
     }
 }
