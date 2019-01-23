@@ -38,4 +38,4 @@ You must mention that this is a modified version of my open source project!
 
 ### Please use the [Template](https://github.com/ktownmods/COD-Public-Cheater/blob/master/.github/ISSUE_TEMPLATE.md) for your Issues
 ### Having trouble with my Project? Please use the [Issues](https://github.com/ktownmods/COD-Public-Cheater/issues) tab
-### Please download only tagged versions because the untagged versions have not been checked and errors may occur. 
+### Please download only tagged versions because the untagged versions have not been checked and errors may occur.
