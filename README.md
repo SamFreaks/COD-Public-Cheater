@@ -10,6 +10,7 @@ The message box pointing to my open source project should not be changed or remo
 You may change everything except the mentioned MessageBox and the label open source project of K Town Mods!<br>
 You can not sell the project as your own!<br>
 You must mention that this is a modified version of my open source project!
+#+#*'*'*'#
 
 ## Tools included now
 ```markdown
