@@ -133,8 +133,7 @@ namespace COD_Public_Cheater
         private void BugLinkLbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             // ReSharper disable once ConvertToConstant.Local
-            var dr = new DialogResult();
-            MessageBox.Show(@"", @"", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1,
+            var dr = MessageBox.Show(@"Do you want to open an issue on GitHub?", @"GitHub ISSUE?", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1,
                 (MessageBoxOptions) 0x40000);
             if (dr == DialogResult.Yes)
             {
