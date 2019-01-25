@@ -46,14 +46,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="COD\Bo1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="COD\Bo1.Designer.cs">
+      <DependentUpon>Bo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COD\Bo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD\Bo2.Designer.cs">
+      <DependentUpon>Bo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COD\Bo3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD\Bo3.Designer.cs">
+      <DependentUpon>Bo3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COD\Mw1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD\Mw1.Designer.cs">
+      <DependentUpon>Mw1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COD\Mw2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD\Mw2.Designer.cs">
+      <DependentUpon>Mw2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COD\Mw3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD\Mw3.Designer.cs">
+      <DependentUpon>Mw3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COD\Bo1.resx">
+      <DependentUpon>Bo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD\Bo2.resx">
+      <DependentUpon>Bo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD\Bo3.resx">
+      <DependentUpon>Bo3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD\Mw1.resx">
+      <DependentUpon>Mw1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD\Mw2.resx">
+      <DependentUpon>Mw2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD\Mw3.resx">
+      <DependentUpon>Mw3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +116,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +133,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoD-Modern-Warfare-3-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COD-MW-new-3-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Call-of-Duty-Modern-Warfare-2-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Call-Of-Duty-Black-Ops-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call_of_duty_black_ops_2_icons___ico__by_backjumpone-d5pp83f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call_of_duty_black_ops_iii_by_em80em-d8tdts9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-zuhause-26.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

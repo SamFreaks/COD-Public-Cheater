@@ -1,4 +1,5 @@
-# Welcome to COD Public Cheater v 0.0.0.1
+# Welcome to COD Public Cheater v0.0.0.5
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/204fdd1fb89547358a90bfdda4c7eabe)](https://app.codacy.com/app/K_Town_Mods/COD-Public-Cheater?utm_source=github.com&utm_medium=referral&utm_content=ktownmods/COD-Public-Cheater&utm_campaign=Badge_Grade_Dashboard)[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://github.com/ktownmods/COD-Public-Cheater/blob/master/LICENSE)
 
 All Cod Public Cheater is a real-time modding tool to play in Call of Duty with Redboxes, Advanced UAV, Wallhack etc ...<br>
 And all these mods are nonhost mods! 
@@ -34,5 +35,6 @@ You must mention that this is a modified version of my open source project!
 
 ## Support
 
-### Please use the [Template](https://github.com/ktownmods/All-COD-Public-Cheater/blob/master/github/ISSUES-TEMPLATE.md) for your Issues
-### Having trouble with my Project? Please use the [Issues](https://github.com/ktownmods/All-COD-Public-Cheater/issues) tab
+### Please use the [Template](https://github.com/ktownmods/COD-Public-Cheater/blob/master/.github/ISSUE_TEMPLATE.md) for your Issues
+### Having trouble with my Project? Please use the [Issues](https://github.com/ktownmods/COD-Public-Cheater/issues) tab
+### Please download only tagged versions because the untagged versions have not been checked and errors may occur.
