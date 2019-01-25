@@ -42,6 +42,7 @@
             this.GitHubLinkLbl = new System.Windows.Forms.LinkLabel();
             this.DisableOnTop = new System.Windows.Forms.CheckBox();
             this.BugLinkLbl = new System.Windows.Forms.LinkLabel();
+            this.PPLinkLbl = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.Bo3PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo2PBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bo1PBox)).BeginInit();
@@ -187,11 +188,23 @@
             this.BugLinkLbl.Text = "Do you find a Bug?";
             this.BugLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BugLinkLbl_LinkClicked);
             // 
+            // PPLinkLbl
+            // 
+            this.PPLinkLbl.AutoSize = true;
+            this.PPLinkLbl.Location = new System.Drawing.Point(646, 56);
+            this.PPLinkLbl.Name = "PPLinkLbl";
+            this.PPLinkLbl.Size = new System.Drawing.Size(142, 13);
+            this.PPLinkLbl.TabIndex = 12;
+            this.PPLinkLbl.TabStop = true;
+            this.PPLinkLbl.Text = "Do you want to Support me?";
+            this.PPLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.PPLinkLbl_LinkClicked);
+            // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PPLinkLbl);
             this.Controls.Add(this.BugLinkLbl);
             this.Controls.Add(this.DisableOnTop);
             this.Controls.Add(this.GitHubLinkLbl);
@@ -234,6 +247,7 @@
         private System.Windows.Forms.LinkLabel GitHubLinkLbl;
         private System.Windows.Forms.CheckBox DisableOnTop;
         private System.Windows.Forms.LinkLabel BugLinkLbl;
+        private System.Windows.Forms.LinkLabel PPLinkLbl;
     }
 }
 
