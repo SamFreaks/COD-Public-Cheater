@@ -140,5 +140,21 @@ namespace COD_Public_Cheater
                 Process.Start(@"https://github.com/ktownmods/COD-Public-Cheater/issues/new");
             }
         }
+
+        private void PPLinkLbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // ReSharper disable once ConvertToConstant.Local
+            var dr = MessageBox.Show(@"Do you want to Support me?", @"PayPal?", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1,
+                (MessageBoxOptions) 0x40000);
+            if (dr == DialogResult.Yes)
+            {
+                Process.Start(@"https://www.paypal.me/SamFreaks/5");
+                DisableOnTop.Checked = true;
+            }
+            else
+            {
+                MessageBox.Show(@"Nevertheless, I thank you", @"Thanks!", MessageBoxButtons.OK, MessageBoxIcon.None, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+            }
+        }
     }
 }
